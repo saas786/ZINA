@@ -1,0 +1,42 @@
+
+/* Family Tree CSS */
+.linage {
+  fill: none;
+  stroke: #000;
+}
+
+.marriage {
+  fill: none;
+  stroke: black;
+
+}
+
+div[class^="woman"]  {
+  background-color: pink;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+div[class^="man"] {
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+.emphasis {
+  font-style: italic;
+}
+.namebox {
+  padding: 0;
+  margin: 0;
+}
+svg {
+  border-style: solid;
+  border-width: 0px;
+}
+
+#graph svg {
+  width: 100vw;
+  height: 99.2vh;
+}

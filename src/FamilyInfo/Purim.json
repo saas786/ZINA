@@ -1,0 +1,46 @@
+[{
+    "name": "asdasd",
+    "class": "man",
+    "textClass": "emphasis",
+    "marriages": [{
+      "spouse": {
+        "name": "asdasd",
+        "class": "woman"
+      },
+      "children": [{
+        "name": "Jasdasd",
+        "class": "man",
+        "marriages": [{
+          "spouse": {
+            "name": "Aleasdasddra",
+            "class": "woman"
+          },
+          "children": [{
+            "name": "Erasdasdic",
+            "class": "man",
+            "marriages": [{
+              "spouse": {
+                "name": "asdasdasd",
+                "class": "woman"
+              }
+            }]
+          }, {
+            "name": "Janddde",
+            "class": "woman"
+          }, {
+            "name": "Jaddasper",
+            "class": "man"
+          }, {
+            "name": "Emewema",
+            "class": "woman"
+          }, {
+            "name": "Juewwelia",
+            "class": "woman"
+          }, {
+            "name": "Jeswewrsica",
+            "class": "woman"
+          }]
+        }]
+      }]
+    }]
+  }]

@@ -1,0 +1,52 @@
+{
+  "name": "family-tree",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://andreispurim.github.io/familytree/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "d3": "^5.10.0",
+    "d3-dtree": "^2.4.1",
+    "d3-tree": "^1.0.24",
+    "graphtodtreeconverter": "^1.0.0",
+    "jsoneditor": "^6.3.0",
+    "jsoneditor-react": "^1.0.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-d3-tree": "^1.13.0",
+    "react-dom": "^16.9.0",
+    "react-json-editor-ajrm": "^2.5.9",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
