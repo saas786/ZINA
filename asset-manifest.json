@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://andreispurim.github.io/ZINA/static/css/main.cd69f779.chunk.css",
-    "main.js": "https://andreispurim.github.io/ZINA/static/js/main.ece138c6.chunk.js",
-    "main.js.map": "https://andreispurim.github.io/ZINA/static/js/main.ece138c6.chunk.js.map",
+    "main.js": "https://andreispurim.github.io/ZINA/static/js/main.446235c0.chunk.js",
+    "main.js.map": "https://andreispurim.github.io/ZINA/static/js/main.446235c0.chunk.js.map",
     "runtime~main.js": "https://andreispurim.github.io/ZINA/static/js/runtime~main.cf680863.js",
     "runtime~main.js.map": "https://andreispurim.github.io/ZINA/static/js/runtime~main.cf680863.js.map",
     "static/js/2.1dd6b9b6.chunk.js": "https://andreispurim.github.io/ZINA/static/js/2.1dd6b9b6.chunk.js",
     "static/js/2.1dd6b9b6.chunk.js.map": "https://andreispurim.github.io/ZINA/static/js/2.1dd6b9b6.chunk.js.map",
     "index.html": "https://andreispurim.github.io/ZINA/index.html",
-    "precache-manifest.5137244a4fd0759d737c3ba8836e322e.js": "https://andreispurim.github.io/ZINA/precache-manifest.5137244a4fd0759d737c3ba8836e322e.js",
+    "precache-manifest.eec9779c0c928f8dcf052814ce8cc8a0.js": "https://andreispurim.github.io/ZINA/precache-manifest.eec9779c0c928f8dcf052814ce8cc8a0.js",
     "service-worker.js": "https://andreispurim.github.io/ZINA/service-worker.js",
     "static/css/main.cd69f779.chunk.css.map": "https://andreispurim.github.io/ZINA/static/css/main.cd69f779.chunk.css.map"
   }
