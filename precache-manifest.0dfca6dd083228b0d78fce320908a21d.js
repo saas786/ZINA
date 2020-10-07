@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64fb724867e5073f10baf26d225e88e3",
+    "revision": "7b77bc5fcd0ca0f8e2e81416c0a8658c",
     "url": "https://andreispurim.github.io/ZINA/index.html"
   },
   {
-    "revision": "7eb4505b1e7cffc1fea6",
+    "revision": "34a9069031ea83341eb2",
     "url": "https://andreispurim.github.io/ZINA/static/css/main.cd69f779.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://andreispurim.github.io/ZINA/static/js/2.1dd6b9b6.chunk.js"
   },
   {
-    "revision": "7eb4505b1e7cffc1fea6",
-    "url": "https://andreispurim.github.io/ZINA/static/js/main.99fd54de.chunk.js"
+    "revision": "34a9069031ea83341eb2",
+    "url": "https://andreispurim.github.io/ZINA/static/js/main.ab7629d5.chunk.js"
   },
   {
     "revision": "2301b3072a37511f1cf9",
