@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/familytree/static/css/main.cd69f779.chunk.css",
+    "main.js": "/familytree/static/js/main.2b41eccf.chunk.js",
+    "main.js.map": "/familytree/static/js/main.2b41eccf.chunk.js.map",
+    "runtime~main.js": "/familytree/static/js/runtime~main.6873ac50.js",
+    "runtime~main.js.map": "/familytree/static/js/runtime~main.6873ac50.js.map",
+    "static/js/2.1dd6b9b6.chunk.js": "/familytree/static/js/2.1dd6b9b6.chunk.js",
+    "static/js/2.1dd6b9b6.chunk.js.map": "/familytree/static/js/2.1dd6b9b6.chunk.js.map",
+    "index.html": "/familytree/index.html",
+    "precache-manifest.6120d953552a5d11ce8021ca7aa5ba2b.js": "/familytree/precache-manifest.6120d953552a5d11ce8021ca7aa5ba2b.js",
+    "service-worker.js": "/familytree/service-worker.js",
+    "static/css/main.cd69f779.chunk.css.map": "/familytree/static/css/main.cd69f779.chunk.css.map"
+  }
+}
