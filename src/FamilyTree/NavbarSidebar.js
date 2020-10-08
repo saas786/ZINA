@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -16,12 +17,13 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import { useHistory } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import AboutModal from './AboutModal.js';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import DescriptionIcon from '@material-ui/icons/Description';
+import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom'
 
 const drawerWidth = 240;
 
@@ -56,8 +58,19 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: '1rem',
     },
   },
+  right: {
+    marginLeft: 'auto',
+  },
+  buttonLeft: {
+    width: '100%',
+  },
   familyName: {
-      
+    fontSize: '1rem',
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontWeight: '400',
+    lineHeight: '1.5',
+    letterSpacing: '0.00938em',
+    textTransform: 'capitalize',
   },
   content: {
     flexGrow: 1,
@@ -99,10 +112,14 @@ export default function ResponsiveDrawer(props) {
         <Divider />
         <List>
             {(props.list).map((text, index) => (
-            <ListItem button key={text} onClick={() => { history.push('/' + text) }}>
-                <ListItemText primary={text} className={classes.familyName}/>
-                <AccountTreeIcon color='disabled'/>
-                <DescriptionIcon color='disabled'/>
+            <ListItem button key={text}>
+                    <Button component={Link} to={'/' + text} className={classes.buttonLeft}>
+                        <ListItemText primary={text} className={classes.familyName}/>
+                        <AccountTreeIcon color='disabled'/>
+                    </Button>
+                    <Button component={Link} to={'/' + text} className={classes.right}>
+                        <DescriptionIcon color='disabled'/>
+                    </Button>
             </ListItem>
             ))}
         </List>
