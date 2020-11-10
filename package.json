@@ -1,8 +1,8 @@
 {
-  "name": "family-tree",
+  "name": "ZINA",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andreispurim.github.io/familytree/",
+  "homepage": "https://andreispurim.github.io/ZINA/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",

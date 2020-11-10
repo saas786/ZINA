@@ -20,7 +20,7 @@ export default class FamilyTree extends React.Component {
         <TreeBuilder
           data={this.state.familyRelations}
           onNodeClick={this.handleNodeClick}
-          height={window.innerHeight}
+          height={window.innerHeight+210}
           width="600"
         />
       </div>

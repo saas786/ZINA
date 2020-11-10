@@ -144,7 +144,7 @@ export default function ResponsiveDrawer(props) {
                     </Typography>
                 </Grid>
                 <Grid item>
-                    <Button component={Link} to={'/Tree/Purim'}>Famílias</Button>
+                    <Button component={Link} to={'/Tree/Purim'}><strong>Famílias</strong></Button>
                     <Button component={Link} to={'/Map'}>Mapas</Button>
                     <Button component={Link} to={'/'}>Documentos</Button>
                     <IconButton>

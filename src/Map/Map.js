@@ -20,8 +20,6 @@ import { Link } from 'react-router-dom'
 import AboutModal from './AboutModal.js';
 import MapView from './MapView.js';
 import data from './data.json';
-import './s.css';
-
 
 const drawerWidth = 240;
 
@@ -112,6 +110,9 @@ export default function Map(props) {
                     <Button className={classes.buttonLeft}>
                         <ListItemText primary={venue.name} className={classes.familyName}/>
                     </Button>
+                    <Button className={classes.right}>
+                        <DescriptionIcon color='disabled'/>
+                    </Button>
             </ListItem>
             ))}
             </List>
@@ -144,7 +145,7 @@ export default function Map(props) {
                     </Grid>
                     <Grid item>
                         <Button component={Link} to={'/Tree/Purim'}>Famílias</Button>
-                        <Button component={Link} to={'/Map'}>Mapas</Button>
+                        <Button component={Link} to={'/Map'}><strong>Mapas</strong></Button>
                         <Button component={Link} to={'/'}>Documentos</Button>
                         <IconButton>
                             <AboutModal />

@@ -1,4 +1,3 @@
-
 /* Family Tree CSS */
 .linage {
   fill: none;
@@ -37,6 +36,11 @@ svg {
 }
 
 #graph svg {
-  width: 100vw;
-  height: 99.2vh;
+  width: 100%;
+  height: 92vh;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 93vh;
 }
