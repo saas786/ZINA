@@ -1,21 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter, Route, Switch} from 'react-router-dom';
-import App from './App';
 import "./index.css";
-import Home from './Home';
 
-var Families_List = ['Purim','Liepkaln'].sort()
+import Tree from './FamilyTree/Tree.js';
+import Home from './Home/Home.js';
+import Map from './Map/Map.js';
+
+var Families_List = ['Purim','Klavin'].sort()
 
 
 ReactDOM.render(
     <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-            <Route path={"/"} component={Home} exact />
             { Families_List.map((family_var, key) => ( 
-                <Route path={ "/" + family_var} key={key} render={(props) =>(<App {...props} family={ require("./FamilyInfo/" + family_var + ".json")} list={Families_List}/>)}/>
+                <Route path={ "/Tree/" + family_var} key={key} render={(props) =>(<Tree {...props} family={ require("./FamilyTree/FamilyInfo/" + family_var + ".json")} list={Families_List}/>)}/>
             ))}
-			<Route component={Home} />
+            <Route path="/Map">
+                <Map />   
+            </Route>
+            <Route exact path="/">
+                <Home />
+            </Route>
         </Switch>
     </HashRouter>
     , document.getElementById('root'));

@@ -1,9 +1,7 @@
 import React from "react";
-import FamilyDTree from "./FamilyDTree.js";
-import Sidebar from "./Sidebar.js";
+import TreeBuilder from "./TreeBuilder.js";
 
-
-export default class App extends React.Component {
+export default class FamilyTree extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -19,7 +17,7 @@ export default class App extends React.Component {
   render() {
     var hGraph = (
       <div className="center-text fullscreen">
-        <FamilyDTree
+        <TreeBuilder
           data={this.state.familyRelations}
           onNodeClick={this.handleNodeClick}
           height={window.innerHeight}
@@ -30,7 +28,6 @@ export default class App extends React.Component {
 
     return (
       <div>
-        <Sidebar list={this.props.list}/>
         {hGraph}
       </div>
     );

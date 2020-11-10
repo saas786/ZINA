@@ -1,0 +1,20 @@
+[
+{"name": "Jahnis Klavin","class": "man", "marriages": [{ "spouse": {"name": "Olga Malvess Klavin", "class": "woman"}, "children": [
+    {"name": "Roberto Klavin", "class": "man", "marriages": [{ "spouse": {"name": "Elza Kauling Klavin","class": "woman"}, "children": [
+        {"name": "João Klavin","class": "man"},
+        {"name": "Matilde Klavin","class": "woman"}
+    ]}]},
+    {"name": "Arnaldo Klavin", "class": "man"},
+    {"name": "Teodoro Klavin", "class": "man", "marriages": [{ "spouse": {"name": "Ester Peterlevitz Klavin","class": "woman"}, "children": [
+        {"name": "Milia Klavin Aniska","class": "woman", "marriages": [{ "spouse": {"name": "Natan Aniska","class": "man"}}]},
+        {"name": "Adolpho Klavin","class": "man", "marriages": [{ "spouse": {"name": "Elvira Bursse Klavin","class": "woman"},  "children": [
+            {"name": "Elizabete Klavin", "class": "woman"},
+            {"name": "Leandro Klavin","class": "man", "marriages": [{ "spouse": {"name": "Maria Rosa N. Klavin","class": "woman"},  "children": [
+                {"name": "Izabele Klavin", "class": "woman"},
+                {"name": "Daniele Klavin", "class": "woman"}
+            ]}]}
+        ]}]},
+    {"name": "Marta Klavin", "class": "woman"}
+    ]}]}
+]}]}
+]

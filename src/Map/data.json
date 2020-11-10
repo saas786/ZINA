@@ -1,0 +1,8 @@
+{
+    "venues": [
+        {"name": "Colônia Leta do Bananal/Guaramirim", "geometry":[-26.474575, -49.002222]},
+        {"name": "Colônia Leta de Jacu-Assu", "geometry":[-26.517149, -48.996544]},
+        {"name": "Grupo Leto de Curitiba", "geometry":[-25.439325, -49.262104]},
+        {"name": "Colônia de Rio Novo", "geometry":[-28.308377, -49.327237]}
+    ]
+}
