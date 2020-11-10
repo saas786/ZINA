@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/familytree/static/css/main.a2cbbfff.chunk.css",
-    "main.js": "/familytree/static/js/main.b9cc5c40.chunk.js",
-    "main.js.map": "/familytree/static/js/main.b9cc5c40.chunk.js.map",
-    "runtime~main.js": "/familytree/static/js/runtime~main.6873ac50.js",
-    "runtime~main.js.map": "/familytree/static/js/runtime~main.6873ac50.js.map",
-    "static/css/2.430af4cd.chunk.css": "/familytree/static/css/2.430af4cd.chunk.css",
-    "static/js/2.486ac948.chunk.js": "/familytree/static/js/2.486ac948.chunk.js",
-    "static/js/2.486ac948.chunk.js.map": "/familytree/static/js/2.486ac948.chunk.js.map",
-    "index.html": "/familytree/index.html",
-    "precache-manifest.853d7167d0b9403693737bad9617c61f.js": "/familytree/precache-manifest.853d7167d0b9403693737bad9617c61f.js",
-    "service-worker.js": "/familytree/service-worker.js",
-    "static/css/2.430af4cd.chunk.css.map": "/familytree/static/css/2.430af4cd.chunk.css.map",
-    "static/css/main.a2cbbfff.chunk.css.map": "/familytree/static/css/main.a2cbbfff.chunk.css.map",
-    "static/media/venue_location_icon.svg": "/familytree/static/media/venue_location_icon.2ceaf661.svg"
+    "main.css": "/ZINA/static/css/main.a2cbbfff.chunk.css",
+    "main.js": "/ZINA/static/js/main.b99f8396.chunk.js",
+    "main.js.map": "/ZINA/static/js/main.b99f8396.chunk.js.map",
+    "runtime~main.js": "/ZINA/static/js/runtime~main.62fad1d6.js",
+    "runtime~main.js.map": "/ZINA/static/js/runtime~main.62fad1d6.js.map",
+    "static/css/2.430af4cd.chunk.css": "/ZINA/static/css/2.430af4cd.chunk.css",
+    "static/js/2.8331e8ff.chunk.js": "/ZINA/static/js/2.8331e8ff.chunk.js",
+    "static/js/2.8331e8ff.chunk.js.map": "/ZINA/static/js/2.8331e8ff.chunk.js.map",
+    "index.html": "/ZINA/index.html",
+    "precache-manifest.1e523d3537910092cf91976dcb79752b.js": "/ZINA/precache-manifest.1e523d3537910092cf91976dcb79752b.js",
+    "service-worker.js": "/ZINA/service-worker.js",
+    "static/css/2.430af4cd.chunk.css.map": "/ZINA/static/css/2.430af4cd.chunk.css.map",
+    "static/css/main.a2cbbfff.chunk.css.map": "/ZINA/static/css/main.a2cbbfff.chunk.css.map",
+    "static/media/venue_location_icon.svg": "/ZINA/static/media/venue_location_icon.2ceaf661.svg"
   }
 }
